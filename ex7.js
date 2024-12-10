@@ -1,10 +1,10 @@
-var string = 'asdfgfdsa';
+var string = 'bbbasdfgfdsabbbbb';
 
 var text = string.toLowerCase();
 
 function isPalindromeIterative(word) {
 
-    size = word.length;
+    let size = word.length;
 
     let end = size - 1;
 
@@ -23,7 +23,7 @@ console.log(isPalindromeIterative(text));
 function isPalindromeRec(word) {
 
 
-    size = word.length;
+    let size = word.length;
 
     if (word === text) {
         startingIndex = 0
@@ -38,16 +38,18 @@ function isPalindromeRec(word) {
     if (size == 2)
         return leftChar === rightChar;
 
+    else if (leftChar !== rightChar)
+        return false;
+
     else {
 
-        newWord = word.substring(startingIndex + 1, endIndex);
+        var newWord = word.substring(startingIndex + 1, endIndex);
+        //console.log(newWord);
 
         size = newWord.length;
         endIndex = size - 1;
-
-        console.log("new word: " + newWord);
-        console.log("start index: " + newWord.charAt(startingIndex));
-        console.log("end index: " + newWord.charAt(endIndex));
+        //console.log(newWord.charAt(startingIndex));
+        //console.log(newWord.charAt(endIndex));
         return isPalindromeRec(newWord);
     }
 
