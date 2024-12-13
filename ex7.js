@@ -1,4 +1,4 @@
-var string = 'bbbasdfgfdsabbbbb';
+var string = 'asdfgfdsa';
 
 var text = string.toLowerCase();
 
@@ -35,21 +35,14 @@ function isPalindromeRec(word) {
     leftChar = word.charAt(startingIndex);
     rightChar = word.charAt(endIndex);
 
-    if (size == 2)
-        return leftChar === rightChar;
-
-    else if (leftChar !== rightChar)
+    if (leftChar !== rightChar)
         return false;
 
     else {
 
         var newWord = word.substring(startingIndex + 1, endIndex);
-        //console.log(newWord);
-
         size = newWord.length;
         endIndex = size - 1;
-        //console.log(newWord.charAt(startingIndex));
-        //console.log(newWord.charAt(endIndex));
         return isPalindromeRec(newWord);
     }
 
