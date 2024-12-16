@@ -1,21 +1,15 @@
 function onChange(control, oldValue, newValue, isLoading, isTemplate) {
 
-    if (newValue == '') {
+    if (newValue == "") {
         return;
     }
     var whatneeded = g_form.getValue('u_what_needed');
 
-    /*  const HumanResources = "hr";
-     const Facilities = "facilities";
-     const Legal = "legal";
-     const SnowRiders = "snow"; */
-
-    //servicenow doesnt work with ES6 so const doesnt work!!!
+    // Clear all of the choices from the What needed field choice list
+    g_form.clearOptions('u_what_needed');
 
     switch (newValue) {
 
-        /*If the value of the Request type field is hr, 
-        add two hr choices and other to the What needed field choice list*/
         case "hr":
             g_form.addOption('u_what_needed', 'hr1', 'Human Resources 1');
             g_form.addOption('u_what_needed', 'hr2', 'Human Resources 2');
@@ -23,6 +17,7 @@ function onChange(control, oldValue, newValue, isLoading, isTemplate) {
         case "facilities":
             g_form.addOption('u_what_needed', 'facilities1', 'Facilities 1');
             g_form.addOption('u_what_needed', 'facilities2', 'Facilities 2');
+
             break;
         case "legal":
             g_form.addOption('u_what_needed', 'legal1', 'Legal 1');
@@ -32,11 +27,9 @@ function onChange(control, oldValue, newValue, isLoading, isTemplate) {
             g_form.addOption('u_what_needed', 'snow1', 'SnowRiders 1');
             g_form.addOption('u_what_needed', 'snow2', 'SnowRiders 2');
             break;
+        default: g_form.addOption('u_what_needed', 'other', 'Other');
     }
     g_form.addOption('u_what_needed', 'other', 'Other');
-
-    // Clear all of the choices from the What needed field choice list
-    g_form.clearOptions('u_what_needed');
 
     // If the form is loading and it is not a new record, set the u_what_needed value to the
     // value from the record before it was loaded
