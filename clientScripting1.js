@@ -5,27 +5,30 @@ function onChange(control, oldValue, newValue, isLoading, isTemplate) {
     }
     var whatneeded = g_form.getValue('u_what_needed');
 
-    const HumanResources = "hr";
-    const Facilities = "facilities";
-    const Legal = "legal";
-    const SnowRiders = "snow";
+    /*  const HumanResources = "hr";
+     const Facilities = "facilities";
+     const Legal = "legal";
+     const SnowRiders = "snow"; */
+
+    //servicenow doesnt work with ES6 so const doesnt work!!!
+
     switch (newValue) {
 
         /*If the value of the Request type field is hr, 
         add two hr choices and other to the What needed field choice list*/
-        case HumanResources:
+        case "hr":
             g_form.addOption('u_what_needed', 'hr1', 'Human Resources 1');
             g_form.addOption('u_what_needed', 'hr2', 'Human Resources 2');
             break;
-        case Facilities:
+        case "facilities":
             g_form.addOption('u_what_needed', 'facilities1', 'Facilities 1');
             g_form.addOption('u_what_needed', 'facilities2', 'Facilities 2');
             break;
-        case Legal:
+        case "legal":
             g_form.addOption('u_what_needed', 'legal1', 'Legal 1');
             g_form.addOption('u_what_needed', 'legal2', 'Legal 2');
             break;
-        case SnowRiders:
+        case "snow":
             g_form.addOption('u_what_needed', 'snow1', 'SnowRiders 1');
             g_form.addOption('u_what_needed', 'snow2', 'SnowRiders 2');
             break;
