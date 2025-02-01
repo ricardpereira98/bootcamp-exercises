@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2025-01-17 17:52:10">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</application>
+<application_name>Hospital App</application_name>
+<application_scope>x_1573382_hospital</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Doctor table and fields created with their respective Hints</description>
+<inserted/>
+<name>3 - Create “Doctor” Table</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>8b3d569383cb9210b23dce95eeaad3bd</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>ricardo.pereira</sys_created_by>
+<sys_created_on>2025-01-17 17:52:10</sys_created_on>
+<sys_id>c341ee1b83cb9210b23dce95eeaad380</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>ricardo.pereira</sys_updated_by>
+<sys_updated_on>2025-01-17 17:52:10</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_3a2f9e1783cb9210b23dce95eeaad397</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>Default access control on x_1573382_hospital_doctor</description><local_or_existing>Local</local_or_existing><name>x_1573382_hospital_doctor</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>ricardo.pereira</sys_created_by><sys_created_on>2025-01-17 17:42:52</sys_created_on><sys_id>3a2f9e1783cb9210b23dce95eeaad397</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1573382_hospital_doctor</sys_name><sys_package display_value="Hospital App" source="x_1573382_hospital">5d9523a283c3d210b23dce95eeaad3ae</sys_package><sys_policy/><sys_scope display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</sys_scope><sys_update_name>sys_security_acl_3a2f9e1783cb9210b23dce95eeaad397</sys_update_name><sys_updated_by>ricardo.pereira</sys_updated_by><sys_updated_on>2025-01-17 17:42:52</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>544059318</payload_hash>
+<remote_update_set display_value="3 - Create “Doctor” Table">c341ee1b83cb9210b23dce95eeaad380</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ricardo.pereira</sys_created_by>
+<sys_created_on>2025-01-17 17:52:10</sys_created_on>
+<sys_id>0341ee1b83cb9210b23dce95eeaad383</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>194755c52410000001</sys_recorded_at>
+<sys_updated_by>ricardo.pereira</sys_updated_by>
+<sys_updated_on>2025-01-17 17:52:10</sys_updated_on>
+<table>x_1573382_hospital_doctor</table>
+<target_name>x_1573382_hospital_doctor</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>ba2f9e17a6cb92106fd33396d012ce99</update_guid>
+<update_guid_history>ba2f9e17a6cb92106fd33396d012ce99:544059318</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_1573382_hospital_doctor_specialty_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="specialty" label="Specialty" language="en" table="x_1573382_hospital_doctor"><sys_documentation action="INSERT_OR_UPDATE"><element>specialty</element><help/><hint>Select the Doctor's specialty's category</hint><label>Specialty</label><language>en</language><name>x_1573382_hospital_doctor</name><plural>Specialties</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>ricardo.pereira</sys_created_by><sys_created_on>2025-01-17 17:49:14</sys_created_on><sys_id>10a02ed783cb9210b23dce95eeaad320</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Specialty</sys_name><sys_package display_value="Hospital App" source="x_1573382_hospital">5d9523a283c3d210b23dce95eeaad3ae</sys_package><sys_policy/><sys_scope display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</sys_scope><sys_update_name>sys_documentation_x_1573382_hospital_doctor_specialty_en</sys_update_name><sys_updated_by>ricardo.pereira</sys_updated_by><sys_updated_on>2025-01-17 17:50:38</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-428058219</payload_hash>
+<remote_update_set display_value="3 - Create “Doctor” Table">c341ee1b83cb9210b23dce95eeaad380</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ricardo.pereira</sys_created_by>
+<sys_created_on>2025-01-17 17:52:10</sys_created_on>
+<sys_id>0741ee1b83cb9210b23dce95eeaad382</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19475636f940000001</sys_recorded_at>
+<sys_updated_by>ricardo.pereira</sys_updated_by>
+<sys_updated_on>2025-01-17 17:52:10</sys_updated_on>
+<table>x_1573382_hospital_doctor</table>
+<target_name>Doctor.Specialty</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>ecf02a1b1bcb9210c0a33a29120748ef</update_guid>
+<update_guid_history>ecf02a1b1bcb9210c0a33a29120748ef:-428058219,54a06ed731cb921003789330999db5d4:1884374966,b6702ad74ecb92102b4ecf20e81a88f9:-625999026,d3ff5a9713cb92108ee2460693efad4f:1884374966,a43dd293f9cb92103f25b609299c0c74:484513432,12da1a9fcd8b9210bdc63fced1630143:850248496,2a6ad25fa88b9210abc83700c0837a03:-1832739989,5a281a9b1a8b9210e8ee69bbf5fa553f:1884374966</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_1573382_hospital_doctor_specialty</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="specialty" table="x_1573382_hospital_doctor"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Specialty&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;specialty&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;x_1573382_hospital_doctor&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="x_1573382_hospital_specialties"&gt;x_1573382_hospital_specialties&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual&gt;categoryISNOTEMPTY^EQ&lt;/reference_qual&gt;&lt;reference_qual_condition table="x_1573382_hospital_specialties"&gt;categoryISNOTEMPTY^EQ&lt;item endquery="false" field="category" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/reference_qual_condition&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ricardo.pereira&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-17 17:49:14&lt;/sys_created_on&gt;&lt;sys_id&gt;5c80aad783cb9210b23dce95eeaad380&lt;/sys_id&gt;&lt;sys_name&gt;Specialty&lt;/sys_name&gt;&lt;sys_package display_value="Hospital App" source="x_1573382_hospital"&gt;5d9523a283c3d210b23dce95eeaad3ae&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hospital App"&gt;5d9523a283c3d210b23dce95eeaad3ae&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_1573382_hospital_doctor_specialty&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ricardo.pereira&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-17 17:49:14&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>512315424</payload_hash>
+<remote_update_set display_value="3 - Create “Doctor” Table">c341ee1b83cb9210b23dce95eeaad380</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ricardo.pereira</sys_created_by>
+<sys_created_on>2025-01-17 17:52:10</sys_created_on>
+<sys_id>0b41ee1b83cb9210b23dce95eeaad381</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>194756229e10000001</sys_recorded_at>
+<sys_updated_by>ricardo.pereira</sys_updated_by>
+<sys_updated_on>2025-01-17 17:52:10</sys_updated_on>
+<table>x_1573382_hospital_doctor</table>
+<target_name>Doctor.Specialty</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>98a06ed7a6cb92107d6adb11cd22b7cf</update_guid>
+<update_guid_history>98a06ed7a6cb92107d6adb11cd22b7cf:512315424,0f706ad77ecb9210f04fa854937f4a02:-63686956,dfff5a9790cb921090f398b926d57b49:512315424,fc3dd293d7cb92101bf8ae20a4f68dce:-63686956,1e281a9b2f8b9210d872a5188e10763d:512315424</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_1573382_hospital_doctor_doctor_name</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="doctor_name" table="x_1573382_hospital_doctor"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Doctor's Name&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;doctor_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;50&lt;/max_length&gt;&lt;name&gt;x_1573382_hospital_doctor&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ricardo.pereira&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-17 17:45:18&lt;/sys_created_on&gt;&lt;sys_id&gt;eaaf529783cb9210b23dce95eeaad371&lt;/sys_id&gt;&lt;sys_name&gt;Doctor's Name&lt;/sys_name&gt;&lt;sys_package display_value="Hospital App" source="x_1573382_hospital"&gt;5d9523a283c3d210b23dce95eeaad3ae&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hospital App"&gt;5d9523a283c3d210b23dce95eeaad3ae&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_1573382_hospital_doctor_doctor_name&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ricardo.pereira&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-17 17:45:18&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1882483717</payload_hash>
+<remote_update_set display_value="3 - Create “Doctor” Table">c341ee1b83cb9210b23dce95eeaad380</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ricardo.pereira</sys_created_by>
+<sys_created_on>2025-01-17 17:52:10</sys_created_on>
+<sys_id>0f41ee1b83cb9210b23dce95eeaad380</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>194755e8fa80000001</sys_recorded_at>
+<sys_updated_by>ricardo.pereira</sys_updated_by>
+<sys_updated_on>2025-01-17 17:52:10</sys_updated_on>
+<table>x_1573382_hospital_doctor</table>
+<target_name>Doctor.Doctor's Name</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>62bf9297b6cb9210b81b18c96ddde3d2</update_guid>
+<update_guid_history>62bf9297b6cb9210b81b18c96ddde3d2:-1882483717,bc3dd29338cb9210fcd6b724ab16d8ac:87080135,5807561bf28b9210de4d46604ff081d0:-1882483717</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_be2f9e1783cb9210b23dce95eeaad39a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>ricardo.pereira</sys_created_by><sys_created_on>2025-01-17 17:42:52</sys_created_on><sys_id>be2f9e1783cb9210b23dce95eeaad39a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1573382_hospital_doctor.x_1573382_hospital.doctor_user</sys_name><sys_package display_value="Hospital App" source="x_1573382_hospital">5d9523a283c3d210b23dce95eeaad3ae</sys_package><sys_policy/><sys_scope display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</sys_scope><sys_security_acl display_value="x_1573382_hospital_doctor">3a2f9e1783cb9210b23dce95eeaad397</sys_security_acl><sys_update_name>sys_security_acl_role_be2f9e1783cb9210b23dce95eeaad39a</sys_update_name><sys_updated_by>ricardo.pereira</sys_updated_by><sys_updated_on>2025-01-17 17:42:52</sys_updated_on><sys_user_role display_value="x_1573382_hospital.doctor_user" name="x_1573382_hospital.doctor_user">f8c49e17838b9210b23dce95eeaad323</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1782326822</payload_hash>
+<remote_update_set display_value="3 - Create “Doctor” Table">c341ee1b83cb9210b23dce95eeaad380</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ricardo.pereira</sys_created_by>
+<sys_created_on>2025-01-17 17:52:10</sys_created_on>
+<sys_id>0f41ee1b83cb9210b23dce95eeaad383</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>194755c53290000001</sys_recorded_at>
+<sys_updated_by>ricardo.pereira</sys_updated_by>
+<sys_updated_on>2025-01-17 17:52:10</sys_updated_on>
+<table>x_1573382_hospital_doctor</table>
+<target_name>x_1573382_hospital_doctor.x_1573382_hospital.doctor_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>722f9e1743cb92105cd76ce74d24b49d</update_guid>
+<update_guid_history>722f9e1743cb92105cd76ce74d24b49d:1782326822</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_1573382_hospital_doctor_professional_id_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="professional_id" label="Professional ID" language="en" table="x_1573382_hospital_doctor"><sys_documentation action="INSERT_OR_UPDATE"><element>professional_id</element><help/><hint>The Doctor's professional license ID.</hint><label>Professional ID</label><language>en</language><name>x_1573382_hospital_doctor</name><plural>Professional IDs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>ricardo.pereira</sys_created_by><sys_created_on>2025-01-17 17:44:15</sys_created_on><sys_id>db7f925783cb9210b23dce95eeaad326</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Professional ID</sys_name><sys_package display_value="Hospital App" source="x_1573382_hospital">5d9523a283c3d210b23dce95eeaad3ae</sys_package><sys_policy/><sys_scope display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</sys_scope><sys_update_name>sys_documentation_x_1573382_hospital_doctor_professional_id_en</sys_update_name><sys_updated_by>ricardo.pereira</sys_updated_by><sys_updated_on>2025-01-17 17:51:04</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1796405263</payload_hash>
+<remote_update_set display_value="3 - Create “Doctor” Table">c341ee1b83cb9210b23dce95eeaad380</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ricardo.pereira</sys_created_by>
+<sys_created_on>2025-01-17 17:52:10</sys_created_on>
+<sys_id>4341ee1b83cb9210b23dce95eeaad382</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1947563d7540000001</sys_recorded_at>
+<sys_updated_by>ricardo.pereira</sys_updated_by>
+<sys_updated_on>2025-01-17 17:52:10</sys_updated_on>
+<table>x_1573382_hospital_doctor</table>
+<target_name>Doctor.Professional ID</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>0f01ea1bb0cb9210ef9cdb7b7d07566a</update_guid>
+<update_guid_history>0f01ea1bb0cb9210ef9cdb7b7d07566a:1796405263,137fd65754cb9210e802b1459cb342a3:280447713,ac3dd2934bcb921094b70d67ec1c3b67:-1104320375,96b59697d98b921023417e3445ab6eb0:280447713</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_1573382_hospital_doctor_professional_id</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="professional_id" table="x_1573382_hospital_doctor"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Professional ID&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;professional_id&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Integer"&gt;integer&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;6&lt;/max_length&gt;&lt;name&gt;x_1573382_hospital_doctor&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ricardo.pereira&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-17 17:44:15&lt;/sys_created_on&gt;&lt;sys_id&gt;163f525783cb9210b23dce95eeaad310&lt;/sys_id&gt;&lt;sys_name&gt;Professional ID&lt;/sys_name&gt;&lt;sys_package display_value="Hospital App" source="x_1573382_hospital"&gt;5d9523a283c3d210b23dce95eeaad3ae&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hospital App"&gt;5d9523a283c3d210b23dce95eeaad3ae&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_1573382_hospital_doctor_professional_id&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ricardo.pereira&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-17 17:44:15&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1883695228</payload_hash>
+<remote_update_set display_value="3 - Create “Doctor” Table">c341ee1b83cb9210b23dce95eeaad380</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ricardo.pereira</sys_created_by>
+<sys_created_on>2025-01-17 17:52:10</sys_created_on>
+<sys_id>4741ee1b83cb9210b23dce95eeaad381</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>194755d99f40000001</sys_recorded_at>
+<sys_updated_by>ricardo.pereira</sys_updated_by>
+<sys_updated_on>2025-01-17 17:52:10</sys_updated_on>
+<table>x_1573382_hospital_doctor</table>
+<target_name>Doctor.Professional ID</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>1f7fd65728cb921083627585f054a99d</update_guid>
+<update_guid_history>1f7fd65728cb921083627585f054a99d:1883695228,7c3dd29391cb92107dde9d62f91381a4:1262447408,deb59297668b92102df9efa9d5ab9080:1883695228</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_2e206e9783cb9210b23dce95eeaad3ca</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="2e206e9783cb9210b23dce95eeaad3ca" sys_domain="global" table="x_1573382_hospital_doctor" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>ricardo.pereira</sys_created_by><sys_created_on>2025-01-17 17:47:13</sys_created_on><sys_id>6220ae9783cb9210b23dce95eeaad3fc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1573382_hospital_doctor" sys_domain="global" view="Default view">2e206e9783cb9210b23dce95eeaad3ca</sys_ui_section><sys_updated_by>ricardo.pereira</sys_updated_by><sys_updated_on>2025-01-17 17:47:13</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>professional_id</element><position>1</position><sys_created_by>ricardo.pereira</sys_created_by><sys_created_on>2025-01-17 17:47:13</sys_created_on><sys_id>ae20ae9783cb9210b23dce95eeaad3fc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1573382_hospital_doctor" sys_domain="global" view="Default view">2e206e9783cb9210b23dce95eeaad3ca</sys_ui_section><sys_updated_by>ricardo.pereira</sys_updated_by><sys_updated_on>2025-01-17 17:47:13</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>doctor_name</element><position>2</position><sys_created_by>ricardo.pereira</sys_created_by><sys_created_on>2025-01-17 17:47:13</sys_created_on><sys_id>a620ae9783cb9210b23dce95eeaad3fd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1573382_hospital_doctor" sys_domain="global" view="Default view">2e206e9783cb9210b23dce95eeaad3ca</sys_ui_section><sys_updated_by>ricardo.pereira</sys_updated_by><sys_updated_on>2025-01-17 17:47:13</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>ricardo.pereira</sys_created_by><sys_created_on>2025-01-17 17:47:13</sys_created_on><sys_id>ae20ae9783cb9210b23dce95eeaad3fd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1573382_hospital_doctor" sys_domain="global" view="Default view">2e206e9783cb9210b23dce95eeaad3ca</sys_ui_section><sys_updated_by>ricardo.pereira</sys_updated_by><sys_updated_on>2025-01-17 17:47:13</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>specialty</element><position>4</position><sys_created_by>ricardo.pereira</sys_created_by><sys_created_on>2025-01-17 17:47:13</sys_created_on><sys_id>a620ae9783cb9210b23dce95eeaad3fe</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1573382_hospital_doctor" sys_domain="global" view="Default view">2e206e9783cb9210b23dce95eeaad3ca</sys_ui_section><sys_updated_by>ricardo.pereira</sys_updated_by><sys_updated_on>2025-01-17 17:47:13</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>has_more_specialties</element><position>5</position><sys_created_by>ricardo.pereira</sys_created_by><sys_created_on>2025-01-17 17:47:13</sys_created_on><sys_id>ae20ae9783cb9210b23dce95eeaad3fe</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1573382_hospital_doctor" sys_domain="global" view="Default view">2e206e9783cb9210b23dce95eeaad3ca</sys_ui_section><sys_updated_by>ricardo.pereira</sys_updated_by><sys_updated_on>2025-01-17 17:47:13</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>6</position><sys_created_by>ricardo.pereira</sys_created_by><sys_created_on>2025-01-17 17:47:13</sys_created_on><sys_id>a620ae9783cb9210b23dce95eeaad3ff</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1573382_hospital_doctor" sys_domain="global" view="Default view">2e206e9783cb9210b23dce95eeaad3ca</sys_ui_section><sys_updated_by>ricardo.pereira</sys_updated_by><sys_updated_on>2025-01-17 17:47:13</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1573382_hospital_doctor</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>ricardo.pereira</sys_created_by><sys_created_on>2025-01-17 17:47:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2e206e9783cb9210b23dce95eeaad3ca</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1573382_hospital_doctor</sys_name><sys_overrides/><sys_package display_value="Hospital App" source="x_1573382_hospital">5d9523a283c3d210b23dce95eeaad3ae</sys_package><sys_policy/><sys_scope display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</sys_scope><sys_update_name>sys_ui_section_2e206e9783cb9210b23dce95eeaad3ca</sys_update_name><sys_updated_by>ricardo.pereira</sys_updated_by><sys_updated_on>2025-01-17 17:47:13</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-1827266781</payload_hash>
+<remote_update_set display_value="3 - Create “Doctor” Table">c341ee1b83cb9210b23dce95eeaad380</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ricardo.pereira</sys_created_by>
+<sys_created_on>2025-01-17 17:52:10</sys_created_on>
+<sys_id>4741ee1b83cb9210b23dce95eeaad384</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>194756050060000001</sys_recorded_at>
+<sys_updated_by>ricardo.pereira</sys_updated_by>
+<sys_updated_on>2025-01-17 17:52:10</sys_updated_on>
+<table>x_1573382_hospital_doctor</table>
+<target_name>Doctor</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>2220ee979acb92109f1128e5c36de301</update_guid>
+<update_guid_history>2220ee979acb92109f1128e5c36de301:-1827266781,a6206e97c5cb9210f0030626b2c141cd:1950472762</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_412f5e1783cb9210b23dce95eeaad3f7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Doctor</label><live_feed_enabled>false</live_feed_enabled><name>x_1573382_hospital_doctor</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>ricardo.pereira</sys_created_by><sys_created_on>2025-01-17 17:42:51</sys_created_on><sys_id>412f5e1783cb9210b23dce95eeaad3f7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Doctor</sys_name><sys_package display_value="Hospital App" source="x_1573382_hospital">5d9523a283c3d210b23dce95eeaad3ae</sys_package><sys_policy/><sys_scope display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</sys_scope><sys_update_name>sys_db_object_412f5e1783cb9210b23dce95eeaad3f7</sys_update_name><sys_updated_by>ricardo.pereira</sys_updated_by><sys_updated_on>2025-01-17 17:42:51</sys_updated_on><update_access>false</update_access><user_role display_value="x_1573382_hospital.doctor_user" name="x_1573382_hospital.doctor_user">f8c49e17838b9210b23dce95eeaad323</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-1178197991</payload_hash>
+<remote_update_set display_value="3 - Create “Doctor” Table">c341ee1b83cb9210b23dce95eeaad380</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ricardo.pereira</sys_created_by>
+<sys_created_on>2025-01-17 17:52:10</sys_created_on>
+<sys_id>4b41ee1b83cb9210b23dce95eeaad380</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>194755c55f20000001</sys_recorded_at>
+<sys_updated_by>ricardo.pereira</sys_updated_by>
+<sys_updated_on>2025-01-17 17:52:10</sys_updated_on>
+<table>x_1573382_hospital_doctor</table>
+<target_name>Doctor</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>872f9e17e5cb9210e822937a98d379ce</update_guid>
+<update_guid_history>872f9e17e5cb9210e822937a98d379ce:-1178197991</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_7e2f9e1783cb9210b23dce95eeaad380</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>ricardo.pereira</sys_created_by><sys_created_on>2025-01-17 17:42:52</sys_created_on><sys_id>7e2f9e1783cb9210b23dce95eeaad380</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1573382_hospital_doctor.x_1573382_hospital.doctor_user</sys_name><sys_package display_value="Hospital App" source="x_1573382_hospital">5d9523a283c3d210b23dce95eeaad3ae</sys_package><sys_policy/><sys_scope display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</sys_scope><sys_security_acl display_value="x_1573382_hospital_doctor">f62f9e1783cb9210b23dce95eeaad37d</sys_security_acl><sys_update_name>sys_security_acl_role_7e2f9e1783cb9210b23dce95eeaad380</sys_update_name><sys_updated_by>ricardo.pereira</sys_updated_by><sys_updated_on>2025-01-17 17:42:52</sys_updated_on><sys_user_role display_value="x_1573382_hospital.doctor_user" name="x_1573382_hospital.doctor_user">f8c49e17838b9210b23dce95eeaad323</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1924900971</payload_hash>
+<remote_update_set display_value="3 - Create “Doctor” Table">c341ee1b83cb9210b23dce95eeaad380</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ricardo.pereira</sys_created_by>
+<sys_created_on>2025-01-17 17:52:10</sys_created_on>
+<sys_id>4b41ee1b83cb9210b23dce95eeaad383</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>194755c51c90000001</sys_recorded_at>
+<sys_updated_by>ricardo.pereira</sys_updated_by>
+<sys_updated_on>2025-01-17 17:52:10</sys_updated_on>
+<table>x_1573382_hospital_doctor</table>
+<target_name>x_1573382_hospital_doctor.x_1573382_hospital.doctor_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>322f9e179ccb9210a2bf48ade2dfaa83</update_guid>
+<update_guid_history>322f9e179ccb9210a2bf48ade2dfaa83:-1924900971</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_362f9e1783cb9210b23dce95eeaad384</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>Default access control on x_1573382_hospital_doctor</description><local_or_existing>Local</local_or_existing><name>x_1573382_hospital_doctor</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>ricardo.pereira</sys_created_by><sys_created_on>2025-01-17 17:42:52</sys_created_on><sys_id>362f9e1783cb9210b23dce95eeaad384</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1573382_hospital_doctor</sys_name><sys_package display_value="Hospital App" source="x_1573382_hospital">5d9523a283c3d210b23dce95eeaad3ae</sys_package><sys_policy/><sys_scope display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</sys_scope><sys_update_name>sys_security_acl_362f9e1783cb9210b23dce95eeaad384</sys_update_name><sys_updated_by>ricardo.pereira</sys_updated_by><sys_updated_on>2025-01-17 17:42:52</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1819360092</payload_hash>
+<remote_update_set display_value="3 - Create “Doctor” Table">c341ee1b83cb9210b23dce95eeaad380</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ricardo.pereira</sys_created_by>
+<sys_created_on>2025-01-17 17:52:10</sys_created_on>
+<sys_id>4f41ee1b83cb9210b23dce95eeaad382</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>194755c51f10000001</sys_recorded_at>
+<sys_updated_by>ricardo.pereira</sys_updated_by>
+<sys_updated_on>2025-01-17 17:52:10</sys_updated_on>
+<table>x_1573382_hospital_doctor</table>
+<target_name>x_1573382_hospital_doctor</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>b62f9e1755cb9210792adf27d9949786</update_guid>
+<update_guid_history>b62f9e1755cb9210792adf27d9949786:-1819360092</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_1573382_hospital_doctor_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_1573382_hospital_doctor"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_1573382_hospital_doctor&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ricardo.pereira&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-17 17:42:52&lt;/sys_created_on&gt;&lt;sys_id&gt;f22f9e1783cb9210b23dce95eeaad39e&lt;/sys_id&gt;&lt;sys_name&gt;x_1573382_hospital_doctor&lt;/sys_name&gt;&lt;sys_package display_value="Hospital App" source="x_1573382_hospital"&gt;5d9523a283c3d210b23dce95eeaad3ae&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hospital App"&gt;5d9523a283c3d210b23dce95eeaad3ae&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_1573382_hospital_doctor_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ricardo.pereira&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-17 17:42:52&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1657465612</payload_hash>
+<remote_update_set display_value="3 - Create “Doctor” Table">c341ee1b83cb9210b23dce95eeaad380</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ricardo.pereira</sys_created_by>
+<sys_created_on>2025-01-17 17:52:10</sys_created_on>
+<sys_id>8341ee1b83cb9210b23dce95eeaad381</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>194755c55020000001</sys_recorded_at>
+<sys_updated_by>ricardo.pereira</sys_updated_by>
+<sys_updated_on>2025-01-17 17:52:10</sys_updated_on>
+<table>x_1573382_hospital_doctor</table>
+<target_name>Doctor</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>cf2f9e17b8cb921026e2a6a495f259bf</update_guid>
+<update_guid_history>cf2f9e17b8cb921026e2a6a495f259bf:1657465612,6c3dd29360cb92105aa48c7ac1609a9c:-837038888,c1c4de173b8b921051ee5148f9f654f5:1657465612</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_aa2f9e1783cb9210b23dce95eeaad373</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Doctor">f0c4de17838b9210b23dce95eeaad380</application><filter/><name>Doctors</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_1573382_hospital.doctor_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>ricardo.pereira</sys_created_by><sys_created_on>2025-01-17 17:42:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>aa2f9e1783cb9210b23dce95eeaad373</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Doctors</sys_name><sys_package display_value="Hospital App" source="x_1573382_hospital">5d9523a283c3d210b23dce95eeaad3ae</sys_package><sys_policy/><sys_scope display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</sys_scope><sys_update_name>sys_ui_module_aa2f9e1783cb9210b23dce95eeaad373</sys_update_name><sys_updated_by>ricardo.pereira</sys_updated_by><sys_updated_on>2025-01-17 17:42:51</sys_updated_on><table>x_1573382_hospital_doctor</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash>-380971366</payload_hash>
+<remote_update_set display_value="3 - Create “Doctor” Table">c341ee1b83cb9210b23dce95eeaad380</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ricardo.pereira</sys_created_by>
+<sys_created_on>2025-01-17 17:52:10</sys_created_on>
+<sys_id>8341ee1b83cb9210b23dce95eeaad384</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>194755c4f480000001</sys_recorded_at>
+<sys_updated_by>ricardo.pereira</sys_updated_by>
+<sys_updated_on>2025-01-17 17:52:10</sys_updated_on>
+<table>x_1573382_hospital_doctor</table>
+<target_name>Doctors</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>222f9e1715cb92101a18228cecfa9a75</update_guid>
+<update_guid_history>222f9e1715cb92101a18228cecfa9a75:-380971366</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_a62f9e1783cb9210b23dce95eeaad370</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Doctor">78c4de17838b9210b23dce95eeaad379</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Doctors</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1573382_hospital_doctor</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_1573382_hospital.doctor_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>ricardo.pereira</sys_created_by><sys_created_on>2025-01-17 17:42:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a62f9e1783cb9210b23dce95eeaad370</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Doctors</sys_name><sys_overrides/><sys_package display_value="Hospital App" source="x_1573382_hospital">5d9523a283c3d210b23dce95eeaad3ae</sys_package><sys_policy/><sys_scope display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</sys_scope><sys_update_name>sys_app_module_a62f9e1783cb9210b23dce95eeaad370</sys_update_name><sys_updated_by>ricardo.pereira</sys_updated_by><sys_updated_on>2025-01-17 17:42:51</sys_updated_on><timeline_page/><title>Doctors</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>835064661</payload_hash>
+<remote_update_set display_value="3 - Create “Doctor” Table">c341ee1b83cb9210b23dce95eeaad380</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ricardo.pereira</sys_created_by>
+<sys_created_on>2025-01-17 17:52:10</sys_created_on>
+<sys_id>8741ee1b83cb9210b23dce95eeaad380</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>194755c4f180000001</sys_recorded_at>
+<sys_updated_by>ricardo.pereira</sys_updated_by>
+<sys_updated_on>2025-01-17 17:52:10</sys_updated_on>
+<table>x_1573382_hospital_doctor</table>
+<target_name>Doctors</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>e22f9e1789cb9210cb29e1e514cfea72</update_guid>
+<update_guid_history>e22f9e1789cb9210cb29e1e514cfea72:835064661</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_722f9e1783cb9210b23dce95eeaad394</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>ricardo.pereira</sys_created_by><sys_created_on>2025-01-17 17:42:52</sys_created_on><sys_id>722f9e1783cb9210b23dce95eeaad394</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1573382_hospital_doctor.x_1573382_hospital.doctor_user</sys_name><sys_package display_value="Hospital App" source="x_1573382_hospital">5d9523a283c3d210b23dce95eeaad3ae</sys_package><sys_policy/><sys_scope display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</sys_scope><sys_security_acl display_value="x_1573382_hospital_doctor">362f9e1783cb9210b23dce95eeaad384</sys_security_acl><sys_update_name>sys_security_acl_role_722f9e1783cb9210b23dce95eeaad394</sys_update_name><sys_updated_by>ricardo.pereira</sys_updated_by><sys_updated_on>2025-01-17 17:42:52</sys_updated_on><sys_user_role display_value="x_1573382_hospital.doctor_user" name="x_1573382_hospital.doctor_user">f8c49e17838b9210b23dce95eeaad323</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1344000813</payload_hash>
+<remote_update_set display_value="3 - Create “Doctor” Table">c341ee1b83cb9210b23dce95eeaad380</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ricardo.pereira</sys_created_by>
+<sys_created_on>2025-01-17 17:52:10</sys_created_on>
+<sys_id>8741ee1b83cb9210b23dce95eeaad383</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>194755c52180000001</sys_recorded_at>
+<sys_updated_by>ricardo.pereira</sys_updated_by>
+<sys_updated_on>2025-01-17 17:52:10</sys_updated_on>
+<table>x_1573382_hospital_doctor</table>
+<target_name>x_1573382_hospital_doctor.x_1573382_hospital.doctor_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>362f9e1753cb9210171af3595d99d896</update_guid>
+<update_guid_history>362f9e1753cb9210171af3595d99d896:-1344000813</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_2a2f9e1783cb9210b23dce95eeaad376</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>Default access control on x_1573382_hospital_doctor</description><local_or_existing>Local</local_or_existing><name>x_1573382_hospital_doctor</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>ricardo.pereira</sys_created_by><sys_created_on>2025-01-17 17:42:51</sys_created_on><sys_id>2a2f9e1783cb9210b23dce95eeaad376</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1573382_hospital_doctor</sys_name><sys_package display_value="Hospital App" source="x_1573382_hospital">5d9523a283c3d210b23dce95eeaad3ae</sys_package><sys_policy/><sys_scope display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</sys_scope><sys_update_name>sys_security_acl_2a2f9e1783cb9210b23dce95eeaad376</sys_update_name><sys_updated_by>ricardo.pereira</sys_updated_by><sys_updated_on>2025-01-17 17:42:51</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1475898324</payload_hash>
+<remote_update_set display_value="3 - Create “Doctor” Table">c341ee1b83cb9210b23dce95eeaad380</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ricardo.pereira</sys_created_by>
+<sys_created_on>2025-01-17 17:52:10</sys_created_on>
+<sys_id>8b41ee1b83cb9210b23dce95eeaad382</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>194755c4f780000001</sys_recorded_at>
+<sys_updated_by>ricardo.pereira</sys_updated_by>
+<sys_updated_on>2025-01-17 17:52:10</sys_updated_on>
+<table>x_1573382_hospital_doctor</table>
+<target_name>x_1573382_hospital_doctor</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>ea2f9e17b4cb92101c9dcc8fa39ef978</update_guid>
+<update_guid_history>ea2f9e17b4cb92101c9dcc8fa39ef978:1475898324</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_1573382_hospital_doctor_has_more_specialties_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="has_more_specialties" label="Has more specialties" language="en" table="x_1573382_hospital_doctor"><sys_documentation action="INSERT_OR_UPDATE"><element>has_more_specialties</element><help/><hint>Check if doctor has more than one specialty.</hint><label>Has more specialties</label><language>en</language><name>x_1573382_hospital_doctor</name><plural>Has more specialties</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>ricardo.pereira</sys_created_by><sys_created_on>2025-01-17 17:46:59</sys_created_on><sys_id>cb106e9783cb9210b23dce95eeaad322</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Has more specialties</sys_name><sys_package display_value="Hospital App" source="x_1573382_hospital">5d9523a283c3d210b23dce95eeaad3ae</sys_package><sys_policy/><sys_scope display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</sys_scope><sys_update_name>sys_documentation_x_1573382_hospital_doctor_has_more_specialties_en</sys_update_name><sys_updated_by>ricardo.pereira</sys_updated_by><sys_updated_on>2025-01-17 17:49:46</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1018077723</payload_hash>
+<remote_update_set display_value="3 - Create “Doctor” Table">c341ee1b83cb9210b23dce95eeaad380</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ricardo.pereira</sys_created_by>
+<sys_created_on>2025-01-17 17:52:10</sys_created_on>
+<sys_id>8f41ee1b83cb9210b23dce95eeaad381</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1947562a31b0000001</sys_recorded_at>
+<sys_updated_by>ricardo.pereira</sys_updated_by>
+<sys_updated_on>2025-01-17 17:52:10</sys_updated_on>
+<table>x_1573382_hospital_doctor</table>
+<target_name>Doctor.Has more specialties</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>f3b0221b6ccb921062ac431be01615e2</update_guid>
+<update_guid_history>f3b0221b6ccb921062ac431be01615e2:1018077723,87106e9741cb9210037c13cb359cfe2e:-935667874,143dd2934ecb9210403b25faf1036c5d:-503683440,eee9925f328b9210c9e5208daaec7943:1588613496,5749921f6b8b9210ceb3a03df45de511:-935667874</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_f62f9e1783cb9210b23dce95eeaad37d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>Default access control on x_1573382_hospital_doctor</description><local_or_existing>Local</local_or_existing><name>x_1573382_hospital_doctor</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>ricardo.pereira</sys_created_by><sys_created_on>2025-01-17 17:42:51</sys_created_on><sys_id>f62f9e1783cb9210b23dce95eeaad37d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1573382_hospital_doctor</sys_name><sys_package display_value="Hospital App" source="x_1573382_hospital">5d9523a283c3d210b23dce95eeaad3ae</sys_package><sys_policy/><sys_scope display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</sys_scope><sys_update_name>sys_security_acl_f62f9e1783cb9210b23dce95eeaad37d</sys_update_name><sys_updated_by>ricardo.pereira</sys_updated_by><sys_updated_on>2025-01-17 17:42:51</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>218968352</payload_hash>
+<remote_update_set display_value="3 - Create “Doctor” Table">c341ee1b83cb9210b23dce95eeaad380</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ricardo.pereira</sys_created_by>
+<sys_created_on>2025-01-17 17:52:10</sys_created_on>
+<sys_id>c341ee1b83cb9210b23dce95eeaad383</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>194755c519f0000001</sys_recorded_at>
+<sys_updated_by>ricardo.pereira</sys_updated_by>
+<sys_updated_on>2025-01-17 17:52:10</sys_updated_on>
+<table>x_1573382_hospital_doctor</table>
+<target_name>x_1573382_hospital_doctor</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>7a2f9e1795cb92104dbae6f9b256557f</update_guid>
+<update_guid_history>7a2f9e1795cb92104dbae6f9b256557f:218968352</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_1573382_hospital_doctor__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Doctor" language="en" table="x_1573382_hospital_doctor"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Doctor</label><language>en</language><name>x_1573382_hospital_doctor</name><plural>Doctors</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>ricardo.pereira</sys_created_by><sys_created_on>2025-01-17 17:42:52</sys_created_on><sys_id>762f9e1783cb9210b23dce95eeaad3a4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Doctor</sys_name><sys_package display_value="Hospital App" source="x_1573382_hospital">5d9523a283c3d210b23dce95eeaad3ae</sys_package><sys_policy/><sys_scope display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</sys_scope><sys_update_name>sys_documentation_x_1573382_hospital_doctor__en</sys_update_name><sys_updated_by>ricardo.pereira</sys_updated_by><sys_updated_on>2025-01-17 17:42:52</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1697384587</payload_hash>
+<remote_update_set display_value="3 - Create “Doctor” Table">c341ee1b83cb9210b23dce95eeaad380</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ricardo.pereira</sys_created_by>
+<sys_created_on>2025-01-17 17:52:10</sys_created_on>
+<sys_id>c741ee1b83cb9210b23dce95eeaad382</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>194755c55cb0000001</sys_recorded_at>
+<sys_updated_by>ricardo.pereira</sys_updated_by>
+<sys_updated_on>2025-01-17 17:52:10</sys_updated_on>
+<table>x_1573382_hospital_doctor</table>
+<target_name>Doctor</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>8b2f9e1736cb92107bd7291bcc1976ca</update_guid>
+<update_guid_history>8b2f9e1736cb92107bd7291bcc1976ca:-1697384587,bf2d9293adcb921057779a757a61a7e5:970821709,cdc4de17b68b9210e7d024c81562a9f6:-1697384587</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_1573382_hospital_doctor_doctor_name_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="doctor_name" label="Doctor's Name" language="en" table="x_1573382_hospital_doctor"><sys_documentation action="INSERT_OR_UPDATE"><element>doctor_name</element><help/><hint>The Doctor's name.</hint><label>Doctor's Name</label><language>en</language><name>x_1573382_hospital_doctor</name><plural>Doctor's Names</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>ricardo.pereira</sys_created_by><sys_created_on>2025-01-17 17:45:18</sys_created_on><sys_id>22bf929783cb9210b23dce95eeaad3cc</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Doctor's Name</sys_name><sys_package display_value="Hospital App" source="x_1573382_hospital">5d9523a283c3d210b23dce95eeaad3ae</sys_package><sys_policy/><sys_scope display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</sys_scope><sys_update_name>sys_documentation_x_1573382_hospital_doctor_doctor_name_en</sys_update_name><sys_updated_by>ricardo.pereira</sys_updated_by><sys_updated_on>2025-01-17 17:51:28</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-351176869</payload_hash>
+<remote_update_set display_value="3 - Create “Doctor” Table">c341ee1b83cb9210b23dce95eeaad380</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ricardo.pereira</sys_created_by>
+<sys_created_on>2025-01-17 17:52:10</sys_created_on>
+<sys_id>cb41ee1b83cb9210b23dce95eeaad381</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>194756431e70000001</sys_recorded_at>
+<sys_updated_by>ricardo.pereira</sys_updated_by>
+<sys_updated_on>2025-01-17 17:52:10</sys_updated_on>
+<table>x_1573382_hospital_doctor</table>
+<target_name>Doctor.Doctor's Name</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>7c21aa1b79cb921019d3841419bd1f72</update_guid>
+<update_guid_history>7c21aa1b79cb921019d3841419bd1f72:-351176869,ee11661b70cb9210ab44ee625b0eadb4:-782229603,66bf929717cb921086bfc026b1edc6d7:-1690664863,643dd29341cb921023613aa603a2ae70:433494025,9407561bc08b92107d8d9f93242c93d2:-1690664863</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_1573382_hospital_doctor_has_more_specialties</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="has_more_specialties" table="x_1573382_hospital_doctor"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Has more specialties&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;has_more_specialties&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_1573382_hospital_doctor&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ricardo.pereira&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-17 17:46:58&lt;/sys_created_on&gt;&lt;sys_id&gt;5500aa9783cb9210b23dce95eeaad3f9&lt;/sys_id&gt;&lt;sys_name&gt;Has more specialties&lt;/sys_name&gt;&lt;sys_package display_value="Hospital App" source="x_1573382_hospital"&gt;5d9523a283c3d210b23dce95eeaad3ae&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hospital App"&gt;5d9523a283c3d210b23dce95eeaad3ae&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_1573382_hospital_doctor_has_more_specialties&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ricardo.pereira&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-17 17:46:58&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2104196542</payload_hash>
+<remote_update_set display_value="3 - Create “Doctor” Table">c341ee1b83cb9210b23dce95eeaad380</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ricardo.pereira</sys_created_by>
+<sys_created_on>2025-01-17 17:52:10</sys_created_on>
+<sys_id>cf41ee1b83cb9210b23dce95eeaad380</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>194756016c40000001</sys_recorded_at>
+<sys_updated_by>ricardo.pereira</sys_updated_by>
+<sys_updated_on>2025-01-17 17:52:10</sys_updated_on>
+<table>x_1573382_hospital_doctor</table>
+<target_name>Doctor.Has more specialties</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>83106e9745cb9210cf9f77f3c39f8529</update_guid>
+<update_guid_history>83106e9745cb9210cf9f77f3c39f8529:2104196542,7c3dd29392cb9210cf8abe79f1dedcba:1621046642,1b49921fb78b9210ef9529725ecebc0f:2104196542</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_fe2f9e1783cb9210b23dce95eeaad379</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>ricardo.pereira</sys_created_by><sys_created_on>2025-01-17 17:42:51</sys_created_on><sys_id>fe2f9e1783cb9210b23dce95eeaad379</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1573382_hospital_doctor.x_1573382_hospital.doctor_user</sys_name><sys_package display_value="Hospital App" source="x_1573382_hospital">5d9523a283c3d210b23dce95eeaad3ae</sys_package><sys_policy/><sys_scope display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</sys_scope><sys_security_acl display_value="x_1573382_hospital_doctor">2a2f9e1783cb9210b23dce95eeaad376</sys_security_acl><sys_update_name>sys_security_acl_role_fe2f9e1783cb9210b23dce95eeaad379</sys_update_name><sys_updated_by>ricardo.pereira</sys_updated_by><sys_updated_on>2025-01-17 17:42:51</sys_updated_on><sys_user_role display_value="x_1573382_hospital.doctor_user" name="x_1573382_hospital.doctor_user">f8c49e17838b9210b23dce95eeaad323</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1209177604</payload_hash>
+<remote_update_set display_value="3 - Create “Doctor” Table">c341ee1b83cb9210b23dce95eeaad380</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ricardo.pereira</sys_created_by>
+<sys_created_on>2025-01-17 17:52:10</sys_created_on>
+<sys_id>cf41ee1b83cb9210b23dce95eeaad383</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>194755c51480000001</sys_recorded_at>
+<sys_updated_by>ricardo.pereira</sys_updated_by>
+<sys_updated_on>2025-01-17 17:52:10</sys_updated_on>
+<table>x_1573382_hospital_doctor</table>
+<target_name>x_1573382_hospital_doctor.x_1573382_hospital.doctor_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>f22f9e1717cb92100a31b5437297d57c</update_guid>
+<update_guid_history>f22f9e1717cb92100a31b5437297d57c:1209177604</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

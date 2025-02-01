@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2025-01-22 17:39:22">
+<sys_update_set action="INSERT_OR_UPDATE">
+<application display_value="Hospital App">5d9523a283c3d210b23dce95eeaad3ae</application>
+<base_update_set display_value=""/>
+<completed_by display_value="ricardo pereira">5b4363a28303d210b23dce95eeaad30a</completed_by>
+<completed_on>2025-01-22 17:39:17</completed_on>
+<description>Implements the logic for "Doctor" table. Client-Scripts, Business Rules, UI Policies created.</description>
+<install_date/>
+<installed_from/>
+<is_default>false</is_default>
+<merged_to display_value=""/>
+<name>8 - Implement form logic for "Doctor" table</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_sys_id display_value=""/>
+<state>complete</state>
+<sys_created_by>ricardo.pereira</sys_created_by>
+<sys_created_on>2025-01-20 10:32:25</sys_created_on>
+<sys_id>e1391458831f9610b23dce95eeaad325</sys_id>
+<sys_mod_count>3</sys_mod_count>
+<sys_updated_by>ricardo.pereira</sys_updated_by>
+<sys_updated_on>2025-01-22 17:39:17</sys_updated_on>
+</sys_update_set>
+</unload>
