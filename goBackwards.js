@@ -1,0 +1,1 @@
+javascript:(function(){document.addEventListener('keydown',function(event){const video=document.querySelector('video');if(!video)return;if(event.key==='ArrowLeft'){event.preventDefault();video.currentTime-=5;}if(event.key===' '||event.key==='Spacebar'){event.preventDefault();video.paused?video.play():video.pause();}})})();
